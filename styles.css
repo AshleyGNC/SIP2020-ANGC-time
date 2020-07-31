@@ -1,0 +1,111 @@
+/*TODO: Add a background color or image to your website*/
+body {
+  background-image: url("https://image.freepik.com/free-vector/geometric-shapes-neon-lights-background_23-2148408855.jpg");
+  background-color: #890EC5;
+  background-size: 100%;
+}
+
+h1 {
+  color: White;
+  text-decoration: bold;
+  text-align: right;
+  font-size: 60px;
+}
+
+
+/*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
+h2 {
+  color: pink;
+  font-size: 42px;
+  text-align: center;
+  color: #E9CAEA;
+  padding: 14px 18px;
+  text-decoration: bold;
+}
+
+p {
+  float: middle;
+  font-size: 34px;
+  text-align: center;
+  color: #E9CAEA;
+  padding: 14px 15px;
+  text-decoration: bold;
+}
+
+
+/*TODO: Use the * selector to reset the margin and padding to 0px*/
+body {
+  margin:0px;
+}
+
+
+
+
+/*TODO: Add styling rules for the text and images on your website.*/
+p2 { 
+  float: right;
+  font-size: 34px;
+  text-align: right;
+  color: pink;
+  padding: 14px 15px;
+  text-decoration: italic;
+}
+
+div1 {
+  float: middle;
+  font-size: 52px;
+  text-align: center;
+  color: white;
+  text-decoration: italic;
+  font-family: "Times New Roman", Times, serif;
+  word-spacing: 50px;
+  border-radius: 50px;
+  border: 2px solid purple;
+  background: url(https://i.pinimg.com/originals/e6/b3/1b/e6b31b6d7819a0d4ba0f71ceb27815ca.jpg);
+  background-position: left;
+  background-repeat: repeat;
+  padding: 13px;
+  width: 20px;
+  height: 10px;
+}
+
+/*This is the website Activist toolkit*/
+p3 {
+  float: right;
+  font-size: 34px;
+  text-align: right;
+  color: pink;
+  padding: 14px 15px;
+  text-decoration: italic;
+}
+
+
+
+/*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
+.topnav a {
+  float: middle;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: serif;
+  border-radius: 10px;
+  border: 2px solid purple;
+  background: url(https://i.pinimg.com/originals/e6/b3/1b/e6b31b6d7819a0d4ba0f71ceb27815ca.jpg);
+  background-position: middle;
+  background-repeat: repeat;
+  padding: 13px;
+  width: 20px;
+  height: 10px;
+
+#container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
+
